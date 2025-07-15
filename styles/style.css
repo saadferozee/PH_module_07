@@ -14,7 +14,7 @@ nav {
     position: sticky;
     top: 0;
 
-    padding: 20px 50px;
+    padding: 20px 70px;
     background-color: whitesmoke;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 
@@ -23,7 +23,7 @@ nav {
 }
 
 .logo {
-    font-size: 64px;
+    font-size: 56px;
     text-shadow: 3px 3px 8px #00000040;
 }
 
@@ -74,4 +74,14 @@ nav a, .middle-nav a {
     font-size: 24px;
     font-weight: 200;
     font-family: "Raleway", sans-serif;
+}
+
+.page-active {
+    text-shadow: 2px 2px 15px #00000080;
+    /* color: rgb(20, 1, 108) !important; */
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
 }

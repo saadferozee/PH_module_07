@@ -55,21 +55,36 @@ Video 02___________________________________________
 Video 03___________________________________________
     (Create Login form and Flexible Nav using Flexbox)
 
-        
+    
 
 
 
 Video 04___________________________________________
+    (CSS Grid Layout: template, column, grid, gap)
 
+    We can add column using -->
 
+        .container {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            /* or */
+            grid-template-columns: repeat(3, 100px);
+            /* 3 column added */
+        }
 
+    We can use Fraction using -->
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
 
 
 
 Video 05___________________________________________
+    (Create Calender Using CSS Grid and Flexbox)
 
-
-
+    
 
 
 Video 06___________________________________________
