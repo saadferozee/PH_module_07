@@ -1,0 +1,108 @@
+--------------------------------------------------
+    Start { 12.07.2025 WED 12:35 AM }
+--------------------------------------------------
+
+[Milestone 02]
+[Module 03]
+
+Late.....😓
+
+
+Text Instruction___________________________________
+
+
+
+
+
+Video 01___________________________________________
+    (CSS Measuring units and Responsive Design Explanation)
+
+    Layout means --> "সাজানো"
+        Various type of Layout exists in Web Development,
+            single line layout, two column layout, magazine layout, zigzag layout, grid braking layout, card layout, hero layout, etc.
+
+    Measuring Units of CSS --> 
+    
+        • vh --> Equal to 1% of the height of the browser window size. 
+        • vw --> Equal to 1% of the width of the browser window size.
+        • vmin --> Use the smallest of the viewport width or height.
+        • vmax --> Use the largest of the viewport width or height.
+        • rem --> Relative to font size of the root element.
+        • em --> Relative to the font size of the parent element.
+        • px --> Pretty explanatory, absolute length in pixel. (1/96)inch *approx
+        • % --> Relative to the value of parent element.
+
+
+
+Video 02___________________________________________
+    (Flexbox, Flex direction, justify content, align items)
+
+    Use 'align-items' for aligning vertically -->
+
+        <selector> {align-items: center;}
+
+
+    Use both for align elements in middle of every side --> 
+
+        <selector> {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+Video 03___________________________________________
+    (Create Login form and Flexible Nav using Flexbox)
+
+        
+
+
+
+Video 04___________________________________________
+
+
+
+
+
+
+Video 05___________________________________________
+
+
+
+
+
+Video 06___________________________________________
+
+
+
+
+
+Video 07___________________________________________
+
+
+
+
+Video 08___________________________________________
+
+
+
+
+Video 09___________________________________________
+
+
+
+
+--------------------------------------------------
+    Pause { 00.07.2025 THU 00:00 PM } to { 00.07.2025 THU 00:00 PM }
+--------------------------------------------------
+
+PRACTICE TASK --->
+
+
+
+
+© Saad_Ferozee
+--------------------------------------------------
+    End { 00.07.2025 WED 00:00 AM }
+--------------------------------------------------
