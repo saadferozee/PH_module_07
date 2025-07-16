@@ -84,7 +84,14 @@ Video 04___________________________________________
 Video 05___________________________________________
     (Create Calender Using CSS Grid and Flexbox)
 
-    
+    I can use row-gap or column-gap -->
+        
+        .selector {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            row-gap: 15px;
+            column-gap: 30px;
+        }
 
 
 Video 06___________________________________________

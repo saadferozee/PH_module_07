@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "Shafqat";
+    src: url(../assets/fonts/Li\ Shohid\ Shafkat\ Samir\ Unicode.ttf);
+}
+@font-face {
+    font-family: "Tamin";
+    src: url(../assets/fonts/Li\ Shohid\ Tahmid\ Tamin\ Unicode.ttf);
+}
+
+/* navbar started */
 header {
     position: relative;
 }
@@ -37,8 +47,11 @@ nav a, .middle-nav a {
     text-decoration: none;
     color: #006400;
 }
+/* navbar end */
 
-/* sign up container started */
+
+
+/* sign up started */
 .sign-up-box-container {
     height: 90vh;
     width: 100%;
@@ -81,7 +94,61 @@ nav a, .middle-nav a {
     border: 2px solid #006400;
     /* transition: 0.5s; */
 }
+/* sign up end */
 
+
+/* calender started */
+.calender-box-container {
+    height: 90vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Raleway", sans-serif;
+}
+.calender-title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #006400;
+    text-shadow: 2px 2px 10px #00640020;
+    margin-bottom: 30px;
+    /* font-family: "Shafqat", sans-serif; */
+}
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 15px;
+    column-gap: 30px;
+}
+.day,
+.date {
+    padding: 20px 30px;
+    border: 1px solid #00640020;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #00640020;
+
+    text-align: center;
+}
+.date {
+    background-color: #00640010;
+    color: #006400;
+    font-size: 24px;
+    font-weight: 400;
+}
+.day {
+    background-color: #00640020;
+    color: #006400;
+    font-weight: 200;
+    font-size: 18px;
+}
+.other-month {
+    color: #00640060;
+}
+
+/* shared style */
 .page-active {
     text-shadow: 2px 2px 15px #00640080;
     /* color: rgb(20, 1, 108) !important; */
