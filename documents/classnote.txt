@@ -80,6 +80,10 @@ Video 04___________________________________________
         }
 
 
+--------------------------------------------------
+    Pause { 16.07.2025 WED ~04:30 PM } to { 16.07.2025 WED ~03:00 PM }
+--------------------------------------------------
+
 
 Video 05___________________________________________
     (Create Calender Using CSS Grid and Flexbox)
@@ -95,29 +99,40 @@ Video 05___________________________________________
 
 
 Video 06___________________________________________
+    (Explore Basic Responsiveness using Simple Media Query)
 
+    We can create Responsive layout using -->
 
-
+        @media screen and (max-width: 576px) {
+            .selector {
+                <property> : <value> ;
+            }
+        }
 
 
 Video 07___________________________________________
-
+    (Responsive Media Query for small, medium and large devices)
 
 
 
 Video 08___________________________________________
+    (Seven Things You Need to Do to Make a Website Responsive)
 
+    1. Viewport Meta Tag
+    2. CSS Relative Measuring Units
+    3. Body Max-width and Horizontal Center align
+    4. Image Fluid: use '%'
+    5. Two Column Flex and Use Media Query with Flex Direction column
+    6. Multi Column: Grid Layout
+    7. Menu Responsive: We'll need Javascript
 
 
 
 Video 09___________________________________________
+    (Module Summery and Practice)
 
 
 
-
---------------------------------------------------
-    Pause { 00.07.2025 THU 00:00 PM } to { 00.07.2025 THU 00:00 PM }
---------------------------------------------------
 
 PRACTICE TASK --->
 
@@ -126,5 +141,5 @@ PRACTICE TASK --->
 
 © Saad_Ferozee
 --------------------------------------------------
-    End { 00.07.2025 WED 00:00 AM }
+    End { 16.07.2025 WED 07:13 PM }
 --------------------------------------------------
