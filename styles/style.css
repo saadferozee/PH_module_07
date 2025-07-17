@@ -138,6 +138,13 @@ nav a, .middle-nav a {
     font-size: 24px;
     font-weight: 400;
 }
+.date:hover {
+    border: #006400 solid 1px;
+    box-shadow: 3px 3px 18px #00640060;
+    transition: 0.5s;
+    background-color: #00640030;
+    cursor: pointer;
+}
 .day {
     background-color: #00640020;
     color: #006400;
